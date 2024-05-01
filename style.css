@@ -1,25 +1,26 @@
-body{
-    margin-top: 150px;
-    background: url(fundo2.jpg);
+body {
+    margin-top: 10%; /* Ajuste o valor conforme necessário */
+    background: url(./img/fundo2.jpg);
     background-size: cover;
 }
+
 .container {
     border: 1px solid black;
-    width: 450px;
-    height: 500px;
-    background-color:rgb(112, 144, 150);
+    width: 80%; /* Alterado para 80% da largura da tela */
+    max-width: 500px; /* Define o tamanho máximo para evitar que fique muito grande */
+    height: auto; /* Alterado para altura automática */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    background-color: rgb(112, 144, 150);
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0 );
-    background: url(fundo.jpg);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0);
+    background: url(./img/fundo.jpg);
     background-size: cover;
     background-position: center;
 }
 
 form {
     border-radius: 15px;
-    display: block;
     box-sizing: border-box;
-    padding: 40px;
     padding: 40px;
     width: 100%;
     backdrop-filter: brightness(40%);
@@ -28,48 +29,35 @@ form {
     gap: 10px;
 }
 
-.botao {
-    border-radius: 50px;
-    text-decoration:solid;
-    width: 80px;
-    height: 22px;
-    background-color: rgb(0, 0, 0);
-    color: white;
-}
-
+.botao,
 .botao2 {
-    border-top: 40px;
     border-radius: 50px;
-    text-decoration:solid;
-    width: 150px;
-    height: 20px;
+    text-decoration: solid;
+    width: 100%; /* Alterado para 100% da largura do contêiner */
+    height: 40px; /* Ajuste o valor conforme necessário */
     background-color: rgb(0, 0, 0);
     color: white;
 }
 
 h1 {
     font-size: 25px;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5 );
-    margin-bottom: 50px;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px; /* Reduzido o espaço inferior */
 }
 
 label {
     color: rgba(20, 20, 20, 0.8);
     font-size: 15px;
-    letter-spacing: 2px;
-    padding-left: 10px;
+    letter-spacing: 1px; /* Reduzido o espaçamento entre letras */
+    padding-left: 5px; /* Reduzido o espaçamento à esquerda */
 }
+
 input {
-    background: rgba(255, 255, 255, 0.3 );
-    height: 20px;
-    line-height: 20px;
+    background: rgba(255, 255, 255, 0.3);
+    height: 40px; /* Ajuste o valor conforme necessário */
     border-radius: 5px;
-    padding: 0px 20px;
+    padding: 0px 10px; /* Reduzido o preenchimento */
     border: none;
     margin-bottom: 20px;
     color: white;
-}
-
-p {
-    margin-top: 50px;
 }
