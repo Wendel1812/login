@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registre-se</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="container2">
+            <form class="form2">
+                <h1>Registre-se</h1>
+                <label>Nome</label>
+                    <input type="text" placeholder="Primeiro nome" required>
+                <label>Sobrenome</label>
+                    <input type="text" placeholder="Último sobrenome">
+                <label>E-mail</label>
+                    <input type="email" placeholder="Digite seu e-mail" required>
+                <label>Número de celular</label>
+                    <input type="text" placeholder="Número com DDD" required>
+                <label>Senha</label>
+                    <input type="password" maxlength="9" placeholder="Digite uma senha de no máximo 9 caracteres" required>
+                <fieldset>
+                    <legend>Sexo</legend>
+                    <input type="radio" required
+                     name="sexo" value="F"> Feminino
+                     <input type="radio"
+                     name="sexo" value="M"> Masculino
+                     <input type="radio"
+                     name="sexo" value="N"> Prefiro não dizer
+                </fieldset>
+                <center>
+                    <button class="register">Registrar</button>
+                </center>
+            </form>
+        </div>
+    </center>
+</body>
+</html>
