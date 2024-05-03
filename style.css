@@ -6,7 +6,7 @@ body{
 }
 .container {
     border: 3px;
-    width: 60%;
+    width: 65%;
     max-width: 500px;
     background-color:rgb(112, 144, 150);
     border-radius: 20px;
@@ -106,7 +106,7 @@ a{
 
 .container2 {
     border: 3px;
-    width: 60%;
+    width: 65%;
     max-width: 450px;
     background-color:rgb(112, 144, 150);
     border-radius: 35px;
