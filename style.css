@@ -1,7 +1,7 @@
 body{
     margin-top: 5%;
     margin-bottom: 5%;
-    background: url(./img/fundo2.jpg);
+    background: url(fundo2.jpg);
     background-size: cover;
 }
 .container {
@@ -26,7 +26,7 @@ form {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(./img/fundo.jpg);
+    background: url(fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
@@ -43,7 +43,7 @@ form {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(./img/fundo.jpg);
+    background: url(fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
