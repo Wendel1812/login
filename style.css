@@ -1,16 +1,18 @@
+html, body{
+    height: 100%;
+    max-height: 700px;
+}
 body{
-    margin-top: 5%;
+    margin-top: 100px;
     margin-bottom: 5%;
-    background: url(fundo2.jpg);
+    background: url(img/fundo2.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
 }
 .container {
-    border: 3px;
-    width: 60%;
-    height: 80%;
+    width: 70%;
     max-width: 500px;
     margin: 0 auto;
-    background-color:rgb(112, 144, 150);
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0 );
     border-radius: 15px;
@@ -26,7 +28,7 @@ form {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(fundo.jpg);
+    background: url(img/fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
@@ -43,7 +45,7 @@ form {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(fundo.jpg);
+    background: url(img/fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
@@ -96,12 +98,14 @@ input {
 }
 
 p {
-    padding: 10px;
+    padding: 5px ;
+    text-align: center;
 }
 
 a{
     color: black;
     padding: 10px;
+    margin: 5px;
 }
 
 ::placeholder{
@@ -114,16 +118,17 @@ a{
     height: 80%;
     max-width: 400px;
     margin: 0 auto;
-    background-color:rgb(112, 144, 150);
     border-radius: 35px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0 );
     display: flex; align-items: center; justify-content: center; 
 }
 fieldset{
     display:inline-flex;
-    margin: 5px;
+    height: 80%;
+    align-items: center;
 }
 fieldset input{
+    margin: 0;
     cursor: pointer;
     display: inline;
     width: 95%;
@@ -139,4 +144,3 @@ fieldset input{
     cursor: pointer;
     margin-top: 15px;
 }
-
