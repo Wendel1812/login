@@ -1,13 +1,15 @@
 body{
-    margin-top: 10%;
-    margin-bottom: 10%;
-    background: url(fundo2.jpg);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background: url(./img/fundo2.jpg);
     background-size: cover;
 }
 .container {
     border: 3px;
-    width: 65%;
+    width: 60%;
+    height: 80%;
     max-width: 500px;
+    margin: 0 auto;
     background-color:rgb(112, 144, 150);
     border-radius: 20px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0 );
@@ -18,13 +20,13 @@ form {
     border-radius: 15px;
     display: block;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
     width: 100%;
     backdrop-filter: brightness(40%);
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(fundo.jpg);
+    background: url(./img/fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
@@ -35,13 +37,13 @@ form {
     border-radius: 15px;
     display: block;
     box-sizing: border-box;
-    padding: 40px;
+    padding: 20px;
     width: 100%;
     backdrop-filter: brightness(40%);
     flex-direction: column;
     display: flex;
     gap: 10px;
-    background: url(fundo.jpg);
+    background: url(./img/fundo.jpg);
     background-size: cover;
     background-position: center;
     filter: brightness(0.95) opacity(0.95);
@@ -69,35 +71,37 @@ form {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 13;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5 );
-    margin-bottom: 5%;
+    padding: 5px 5px 10px 5px;
 }
 
 label {
     color: rgba(255, 255, 255, 0.8);
     font-size: 15px;
-    letter-spacing: 2px;
-    padding-left: 10px;
+    letter-spacing: 3px;
+    padding-left: 7px;
+    margin: 0px;
 }
 input {
     background: rgba(255, 255, 255, 0.3 );
     height: 20px;
     width: 90%;
     line-height: 20px;
-    border-radius: 5px;
-    padding: 0px 20px;
+    padding: 0px 10px 0px 10px;
     border: none;
     margin-bottom: 5%;
     color: white;
+    border: 1px solid black;
 }
 
 p {
-    margin: 25px 5px 5px 5px
+    padding: 10px;
 }
 
 a{
     color: black;
+    padding: 10px;
 }
 
 ::placeholder{
@@ -106,20 +110,23 @@ a{
 
 .container2 {
     border: 3px;
-    width: 65%;
+    width: 75%;
+    height: 80%;
     max-width: 400px;
+    margin: 0 auto;
     background-color:rgb(112, 144, 150);
     border-radius: 35px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0 );
     display: flex; align-items: center; justify-content: center; 
 }
-
-fieldset {
-    display: inline;
-}    
-
+fieldset{
+    display:inline-flex;
+    margin: 5px;
+}
 fieldset input{
     cursor: pointer;
+    display: inline;
+    width: 95%;
 }
 
 .register{
@@ -132,3 +139,4 @@ fieldset input{
     cursor: pointer;
     margin-top: 15px;
 }
+
