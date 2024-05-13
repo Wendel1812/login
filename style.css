@@ -3,11 +3,14 @@ html, body{
     max-height: 700px;
 }
 body{
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 5%;
     background: url(fundo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-size: 1920px 1080px;
+    max-height: 100vh;
+    max-height: 90vh;
 }
 .container {
     width: 70%;
