@@ -6,14 +6,14 @@ const botao = document.querySelector('.plano').addEventListener('click', () => {
     let label2 = document.querySelector('#secondLabel');
     let a = document.querySelector('a');
     if (fundo.style.backgroundImage.includes('fundao.jpg')) {
-        fundo.style.backgroundImage = "url('img/fundo.jpg')";
+        fundo.style.backgroundImage = "url('fundo.jpg')";
         letras.style.color = "black";
         parag.style.color = 'black';
         label.style.color = 'black';
         label2.style.color = 'black';
         a.style.color = 'black';
     } else {
-        fundo.style.backgroundImage = "url('img/fundao.jpg')";
+        fundo.style.backgroundImage = "url('fundao.jpg')";
         letras.style.color = "white";
         parag.style.color = 'white';
         label.style.color = 'white';
