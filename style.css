@@ -1,15 +1,20 @@
 html, body {
     height: 100%;
     margin: 0;
+    padding: 0;
+    overflow: hidden;
 }
 
 body {
-    margin-top: 20px;
+    margin-top: 90px;
     margin-bottom: 5%;
     background: url(fundo2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     max-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .container {
@@ -17,7 +22,12 @@ body {
     max-width: 500px;
     margin: 0 auto;
     border-radius: 20px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0);
+    filter: brightness(0.95) opacity(0.95);
+    background: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
 }
 
 form, .form2 {
@@ -28,10 +38,6 @@ form, .form2 {
     flex-direction: column;
     display: flex;
     gap: 10px;
-    filter: brightness(0.95) opacity(0.95);
-    background: url(fundo.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .botao, .botao2, .register {
@@ -46,17 +52,28 @@ form, .form2 {
 }
 
 h1 {
-    font-size: 13px;
+    font-size: 16px;
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
     padding: 5px 5px 10px 5px;
+    align-self: center;
 }
 
 label {
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 15px;
-    letter-spacing: 3px;
-    padding-left: 7px;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    letter-spacing: 1px;
+    align-self: center;
     margin: 0;
+    text-decoration: underline;
+}
+
+#secondLabel{
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    letter-spacing: 1px;
+    align-self: center;
+    margin: 0;
+    text-decoration: underline;
 }
 
 input {
@@ -80,6 +97,12 @@ a {
     color: black;
     padding: 10px;
     margin: 5px;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: line-through;
+    color: blue;
 }
 
 ::placeholder {
@@ -88,13 +111,16 @@ a {
 
 .container2 {
     border: 3px;
-    width: 75%;
-    height: 80%;
+    width: 90%;
+    height: 100%;
     max-width: 400px;
     margin: 0 auto;
     border-radius: 35px;
     box-shadow: 0px 0px 20px rgba(0, 0, 0);
     display: flex;
+    background: url(fundo.jpg);
+    background-size: cover;
+    background-position: center;
     align-items: center;
     justify-content: center;
 }
@@ -112,15 +138,28 @@ fieldset input {
     width: 95%;
 }
 
+.plano {
+    border-radius: 50px;
+    text-decoration: solid;
+    width: 100px;
+    height: 40px;
+    background-color: rgb(36, 32, 32);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
 /* Responsividade */
 
 @media only screen and (max-width: 768px) {
     .container {
-        width: 80%;
+        width: 90%;
+        max-width: 90%;
+        padding: 15px;
     }
 
     .container2 {
         width: 90%;
+        max-width: 95%;
     }
 
     form, .form2 {
@@ -130,11 +169,14 @@ fieldset input {
 
 @media only screen and (max-width: 576px) {
     .container {
-        width: 90%;
+        width: 95%;
+        max-width: 95%;
+        padding: 10px;
     }
 
     .container2 {
         width: 95%;
+        max-width: 100%;
     }
 
     form, .form2 {
