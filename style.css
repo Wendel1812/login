@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    margin-top: 90px;
+    justify-content: center;
     margin-bottom: 5%;
     background: url(fundo2.jpg);
     background-repeat: no-repeat;
@@ -172,6 +172,24 @@ fieldset input {
         width: 95%;
         max-width: 95%;
         padding: 10px;
+        margin: 25% 25%;
+    }
+
+    .container2 {
+        width: 95%;
+        max-width: 100%;
+    }
+
+    form, .form2 {
+        padding: 5px;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .container {
+        width: 95%;
+        max-width: 95%;
+        padding: 10px;
+        margin: 25% 25%;
     }
 
     .container2 {
